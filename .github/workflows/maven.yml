@@ -36,5 +36,5 @@ jobs:
           file: ./Dockerfile 
           push: true 
           tags: | # <-- MUST have the pipe character here
-            orazmyrata/demo-app:latest
+            orazmyrata/demo-app:latest 
           # The JAR name is handled within the Dockerfile, so no need to specify it here.
